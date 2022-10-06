@@ -5,16 +5,54 @@ background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82
 background-size: cover;
 }
 h1{
-    color: blue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(109, 0, 251);
+    align-items: center;
+    font-family: copperplate;
+    text-decoration: underline;
     text-align: center;
-    margin: 10px;
+    text-shadow: 3px 3px 3px  yellow;
+    margin: 30px;
     border-radius: 2%;
-    border: 3px;
-    border-color: red;
-    border-bottom: 4px;
-    border-style: dotted;
-    background-image: linear-gradient(rgb(155, 155, 235), red);
+    border: 1px solid red;
+    width: 600px;
+    background-image: linear-gradient(rgb(115, 115, 226), red);
+}
+#row1{
+    display: block;
+}
+#row1-section1{
+    border: 5px 3px blue;
+}
+#row1-section2{
+    border: 3px solid rgb(241, 117, 0);
+    height: 100px;
+    width: 600px ;
+    text-align:justify;
+    background-color:rgb(116, 201, 241) ;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#row2{
+    margin-top: 10px;
+    margin-left: 30%;
+}
+#row2-section1{
+    border-left: 3px red;
+    border-bottom: 3px red;
+
+}
+#row2-section2{
+    border: 3px solid green;
+    height: 100px;
+    width: 600px ;
+    text-align:justify;
+    background-color:red ;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 /* Colors: 
 - rgb(243, 183, 106)
